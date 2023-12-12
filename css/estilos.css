@@ -1,1 +1,63 @@
+#index {
+    background-image: url(../img/home-hero.jpg);
+    background-size: cover;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center; 
+}
+
+#index main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#index main h1 {
+    color: #FFFFFF;
+    font-size: 8em;
+    margin-bottom: 10px;
+}
+
+#index main p {
+    color: #FFFFFF;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+#index nav ul {
+    list-style: none; 
+    padding: 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#index nav li {
+    margin: 0 15px; 
+}
+
+#index nav a {
+    text-decoration: none; 
+    color: #FFFFFF; 
+    font-weight: 700; 
+}
+
+#index footer {
+    padding: 20px; 
+    text-align: center; 
+    position: fixed;
+    bottom: 0; 
+    width: 100%; 
+    color: #FFFFFF;
+}
+
+#index footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 700; 
+}
 
