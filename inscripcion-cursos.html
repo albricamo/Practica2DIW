@@ -3,10 +3,13 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Indice de El Taller</title>
-        <meta name="description" content="Cursos de ceramica">
-        <link rel="stylesheet" href="estils.css">
+        <title>Inscripción cursos de El Taller</title>
+        <meta name="description" content="Inscripción cursos de ceramica">
+        <link rel="stylesheet" href="css\estils.css">
         <link rel="icon" href="img\favicon-32x32.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     </head>
     <body id="inscripcion">
         <header>
@@ -47,12 +50,12 @@
                         </li>
                         <li>
                             <label for="date">Fecha de nacimiento *</label>
-                            <input type="date" id="date" name="date" placeholder="dd/mm/aaaa" required>
+                            <input type="date" id="date" name="date" required>
                         </li>
                         <li>
                             <label for="curso">Curso *</label>
                             <select name="curso" id="curso" required>
-                                <option value="Selecciona" selected>Selecciona el curso</option>
+                                <option value="" selected>Selecciona un curso</option>
                                 <option value="torno">Torno</option>
                                 <option value="cerámica">Cerámica</option>
                                 <option value="modelado">Modelado</option>
@@ -68,11 +71,11 @@
                         <legend>¿Has hecho otros cursos con nosotros? *</legend>
                         <ul>
                             <li>
-                                <input type="radio" name="otros_cursos" id="si" required />
+                                <input type="radio" name="otros_cursos" id="si" required>
                                 <label for="si">Sí</label>
                             </li>
                             <li>
-                                <input type="radio" name="otros_cursos" id="no" required />
+                                <input type="radio" name="otros_cursos" id="no" required>
                                 <label for="no">No</label>
                             </li>
                         </ul>
@@ -84,25 +87,25 @@
                     <legend>Elige un metodo de pago *</legend>
                     <ul>
                         <li>
-                            <input type="radio" name="transferencia" id="transferencia" required />
+                            <input type="radio" name="transferencia" id="transferencia" required>
                             <label for="transferencia">Transferencia</label>
                         </li>
                         <li>
-                            <input type="radio" name="tarjeta" id="tarjeta" required />
+                            <input type="radio" name="tarjeta" id="tarjeta" required>
                             <label for="tarjeta">Tarjeta de débito/crédito</label>
                         </li>
                         <li>
-                            <input type="radio" name="efectivo" id="efectivo" required />
+                            <input type="radio" name="efectivo" id="efectivo" required>
                             <label for="efectivo">En Efectivo</label>
                         </li>
                     </ul>
                 </fieldset>
             </form>
             <div>
-                <p>INFORMACIÓN SOBRE PROTECCIÓN DE DATOS DE <strong>EL TALLER. Finalidades</strong>: recogida de datos para la inscripción en los cursos. <strong>Legitimación</strong>: Consentimiento del interesado. <strong>Destinatarios</strong>: No están previstas cesiones de datos a terceros, excepto obligación legal. <strong>Derechos</strong>: Puede retirar su consentimiento en cualquier momento, así como acceder, rectificar, suprimir sus datos y otros derechos dirigiéndose a <a href="">info@eltaller.es.</a><strong> Información Adicional</strong>: Puede ampliar la información en el enlace de <a href="">Aviso Legal</a> y <a href="">Política de privacidad.</a></p>
+                <p>INFORMACIÓN SOBRE PROTECCIÓN DE DATOS DE <strong>EL TALLER. Finalidades</strong>: recogida de datos para la inscripción en los cursos. <strong>Legitimación</strong>: Consentimiento del interesado. <strong>Destinatarios</strong>: No están previstas cesiones de datos a terceros, excepto obligación legal. <strong>Derechos</strong>: Puede retirar su consentimiento en cualquier momento, así como acceder, rectificar, suprimir sus datos y otros derechos dirigiéndose a <a href="" class="enlace">info@eltaller.es.</a><strong> Información Adicional</strong>: Puede ampliar la información en el enlace de <a href="" class="enlace">Aviso Legal</a> y <a href="" class="enlace">Política de privacidad.</a></p>
                 <input type="checkbox" name="politica_privacidad" id="politica_privacidad" required>
                 <label for="politica_privacidad">He leído y acepto la política de privacidad *</label>
-                <input type="submit" value="Inscríbeme"/>
+                <input type="submit" value="Inscríbeme">
             </div>
         </main>
         <footer>
