@@ -162,6 +162,7 @@ body > header {
     padding-top: 2vh;
 }
 
+
 #ceramica >header >h1 > a::before {
     content: url(../img/favicon-32x32.png) " ";
 }
