@@ -5,22 +5,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Indice de El Taller</title>
         <meta name="description" content="Cursos de ceramica">
-        <link rel="stylesheet" href="css\estils.css">
-        <link rel="icon" href="img\favicon-32x32.png">
+        <link rel="stylesheet" href="css/estils.css">
+        <link rel="icon" href="img/favicon-32x32.png">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     </head>
     <body id="cursos">
-        <header>
-            <figure>
-                <img src="img\isologo-taller.png" alt="Isologo el taller">
-            </figure>
-            <h1><a href="index.html">el taller</a></h1>
+        <header class="cap">
+            <h1 class="titol"><a href="index.html">el taller</a></h1>
             <nav>
                 <ul>
                     <li><a href="que-es-la-ceramica.html">CERÁMICA</a></li>
-                    <li><a href="cursos.html">CURSOS</a></li>
+                    <li><a href="cursos.html" class="raya">CURSOS</a></li>
                     <li><a href="inscripcion-cursos.html">INSCRIPCIÓN</a></li>
                 </ul>
             </nav>
@@ -29,7 +25,7 @@
             <h2>Cursos de carámica</h2>
             <h2>2023</h2>
             <figure>
-                <img src="img\cursos-ceramica.jpg" alt="Cursos ceramica">
+                <img src="img/cursos-ceramica.jpg" alt="Cursos ceramica">
                 <figcaption>© Foto de <a href="https://unsplash.com/@courtneymcook" class="enlace">Courtney Cook</a> en <a href="https://unsplash.com/es/fotos/jZLozXwxgbo" class="enlace">Unsplash</a></figcaption>
             </figure>
             <div>
@@ -46,11 +42,6 @@
                             <th>Horario</th>
                         </tr>
                     </thead>
-                    <tfoot>
-                        <tr>
-                            <td colspan="4">Plazas limitadas a 15 alumnos por sesión</td>
-                        </tr>
-                    </tfoot>
                     <tbody>
                         <tr>
                             <th>Torno</th>
@@ -83,13 +74,23 @@
                             <td>Un viernes al mes de 16 a 20 h</td>
                         </tr>
                     </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="4">Plazas limitadas a 15 alumnos por sesión</td>
+                        </tr>
+                    </tfoot>
+                    
                 </table>
             </div>
         </main>
-        <footer>
-            <a href="">Aviso legal</a>
-            <a href="">Política de privacidad</a>
-            <a href="">Política de cookies</a>
+        <footer class="peu">
+            <nav>
+                <ul>
+                    <li><a href="">Aviso legal</a></li>
+                    <li><a href="">Política de privacidad</a></li>
+                    <li><a href="">Política de cookies</a></li>
+                </ul>
+            </nav>
             <p>2023 © Alberto Richart Amorós</p>
         </footer>
     </body>
