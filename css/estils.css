@@ -1,147 +1,126 @@
-/*#index {
-    background-image: url(../img/home-hero.jpg);
-    background-size: cover;
-    font-family: 'Work Sans', sans-serif;
-    text-align: center; 
-}
-
-#index main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 100%;
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
-
-#index main h1 {
-    color: #FFFFFF;
-    font-size: 8em;
-    margin-bottom: 10px;
-}
-
-#index main p {
-    color: #FFFFFF;
-    font-size: 2em;
-    margin-bottom: 1em;
-}
-
-#index nav ul {
-    list-style: none; 
-    padding: 0; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#index nav li {
-    margin: 0 15px; 
-}
-
-#index nav a {
-    text-decoration: none; 
-    color: #FFFFFF; 
-    font-weight: 700; 
-}
-
-#index footer {
-    padding: 20px; 
-    text-align: center; 
-    position: fixed;
-    bottom: 0; 
-    width: 100%; 
-    color: #FFFFFF;
-}
-
-#index footer a {
-    text-decoration: none;
-    color: #FFFFFF;
-    font-weight: 700; 
-}
-*/
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
-* {
-    padding: 0px;
-    margin: 0px;
-    font-family: 'Work Sans', sans-serif;
-}
 
 body {
     width: 100%;
-    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Work Sans', sans-serif;
+    overflow-x: hidden;
+}
+body > header { 
+    background-color: black;
+    width: 100%;
+    text-align: center;
 }
 
 #index > header {
     background-color: unset;
-    margin-bottom: 15%;
 }
 
 #index {
     background-image: url(../img/home-hero.jpg);
+    background-repeat: no-repeat;
     text-align: center;
-    background-position: center;
+    background-position:center top;
     background-size: cover;
     width: 100%;
     height: 100vh;
 }
 
-main {
-    margin: auto;
-    width: 50vw;
-    max-width: 45vw;
-    font-size: 0.9rem;
-    line-height: 1.3rem;
+#index>main{
+    vertical-align: middle;
 }
 
-nav > ul {
+main { 
+    margin: auto;
+    width: 67%;
+    max-width: 890px;
+    font-size: 0.881rem;
+    line-height: 1.3rem;
+    margin-bottom: 3.3rem;
+}
+
+h2{ 
+     text-align: center;
+     font-size: 2rem;
+     margin-top: 3rem;
+}
+
+nav > ul { 
     list-style: none;
     padding: 0px;
     margin: 1vw;
     margin-top: 3vw;
     display: inline-flex;
-    font-size: 1rem;
-    font-weight: bold;
+    font-size: 1.2vw;
 }
 
 nav > ul > li {
-    margin: 0.5rem;
+    margin: 0.6rem;
+}
+
+.titol {
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: bold;
+    letter-spacing: -0.14rem;
+    padding: 1rem;
+    margin: 0px;
+}
+.titol > a::before {
+    content: url(../img/favicon-32x32.png) " ";
+}
+
+.cap >nav > ul{
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: -1rem;
+    margin-bottom: 3rem;
+    margin-left: 3.6rem;
+    text-transform: uppercase;
+}
+.raya {
+    border-bottom: 2px solid;
+    padding-bottom: 0.6rem;
 }
 
 a {
     text-decoration: none;
     color: #FFFFFF;
 }
-
-a:hover {
+a:hover{
     color: #6BDEC8;
+}
+.titol > a:hover{
+    color: #FFFFFF;
 }
 
 #index> main> img {
     width: 4.4vw;
-    margin-top: 30vh;
+    margin-top: 9.7vw;
 }
-
 #index > main > h1 {
     font-size: 8.2vw;
     margin-top: 3.5vw;
     letter-spacing: -0.5vw;
+
+}
+#index >main> h4 {
+    font-size: 2.2vw;
+    margin-top: -1vw;
+    letter-spacing: 0.35vw;
 }
 
-#index > main > h4 {
-    font-size: 3vw;
-    margin-top: 5vw;
-    letter-spacing: 0.5vw;
-}
-
-footer, main > h1, main > h4 {
+footer, main > h1,main > h4 {
     color: #FFFFFF;
 }
 
-#footind > nav > ul > li {
-    font-size: 1.5vw;
+#footind > nav > ul > li{
+    font-size: 1vw;
+}
+
+#footind > nav{
+    margin-bottom: -0.5vw;
 }
 
 #footind {
@@ -153,25 +132,266 @@ footer, main > h1, main > h4 {
     margin-bottom: 2vw;
 }
 
-
-
-body > header {
+.peu { 
     background-color: black;
     width: 100%;
-    text-align: center;
-    padding-top: 2vh;
+    text-align: left;
+    height: 68px;
+    padding-left: 17vw;
+    padding-bottom: 2.5rem;
 }
 
-#ceramica >header >h1 > a::before {
-    content: url(../img/favicon-32x32.png) " ";
+.peu > nav, .peu > p {
+    max-width: 96rem;
+    margin: auto;
 }
-.peu{
-    background-color: black;
+
+.peu > nav > ul{
+    margin: 4px;
+    margin-left: -15px;
 }
+
+.peu > nav > ul > li{
+    font-size: 0.9rem;
+}
+
+.peu > p {
+    font-size: 0.7rem;
+    margin-left: -5px;
+}
+
 article > footer { 
     color: black;
     font-size: small;
 }
-.enlace{
-    color: black;
+
+.enlace {
+    color: #942C0B;
+    border-bottom: 1px dotted;
+}
+
+.enlace:hover{
+    border-bottom: 1px solid;
+    color: #942C0B;
+}
+
+figure {
+    text-align: center;
+    padding: 0px;
+    margin: auto;
+    margin-top: 2.5rem;
+    margin-bottom: 2.7rem;
+    width: 49.5vw;
+    max-width: 665px;
+}
+
+figure >iframe{
+    width: 49.5vw;
+    max-width: 665px;
+    height: 28vw;
+    max-height: 376px;
+    border: none;
+}
+
+figure >figcaption {
+    text-align: left;
+    margin-top: -0.3rem;
+    margin-left: 0rem;
+    font-size: 0.6rem;
+}
+
+h3{
+    font-size: 1.4rem;
+    padding-bottom: 6px;
+    margin-bottom: 0.3rem;
+    border-bottom: 1px solid;
+}
+
+strong {
+    font-weight: bold;
+}
+
+section > ul > li {
+    list-style:square;
+    margin-bottom: 0.43rem;
+
+}
+
+section > dl > dt {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 1.21rem;
+    margin-bottom: 5px;
+}
+
+section > dl > dt, dd {
+    padding-left: 2.4rem;
+}
+
+
+
+h2+h2 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: auto;
+    margin-top: -2px;
+}
+
+#cursos> main > figure > img {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    width: 50vw;
+    max-width:665px;
+}
+
+#cursos> main > div > p {
+    line-height: 2.4rem;
+    font-weight: bold;
+    font-size: 1.62rem;
+    width: 49.5vw;
+    max-width: 665px;
+    margin: auto;
+}
+
+
+
+table{
+    margin: auto;
+    margin-top: 25px;
+    width: 100%;
+    max-width: 890px;
+    border-collapse: collapse;
+}
+
+tfoot> tr > td{
+    text-align: left;
+    font-weight:100;
+    font-size: 0.65rem;
+    border-bottom: 1px black solid;
+    padding: 3px;
+    padding-left: 7px;
+}
+
+thead > tr:first-child > th{
+    font-weight: unset;
+    font-size: 1.2rem;
+    padding: 4px;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+}
+
+thead > tr:last-child > th{
+    border-bottom: 1px black solid;
+    border-collapse:separate;
+    padding: 5px;
+    text-align: left;
+    font-weight: unset;
+    font-size: 0.8rem;
+}
+
+tbody > tr > td {
+    padding: 10px;
+    padding-left: 7px;
+    vertical-align: bottom;
+}
+
+tbody > tr > th:first-child {
+    text-align: left;
+    padding-left: 4px; 
+}
+
+tbody > tr > td:first-child{
+    width: 260px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+tbody > tr:nth-child(odd){
+    background-color: #6BDEC8;
+}
+
+
+
+
+#titisinc
+
+#formulario {
+    display: flex;
+    margin: auto;
+    width: 56.5vw;
+    max-width: 760px;
+    flex-direction: column;
+}
+
+#formulario > fieldset {
+    margin-top: 1rem;
+    padding: 10px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+#formulario > fieldset > legend, #legend-interior {
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#formulario > fieldset > ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+
+#formulario label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+#formulario #form1 input, #formulario select, #formulario textarea {
+    width: 100%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    font-size: 1rem;
+    border: 1px solid black;
+}
+
+#formulario textarea {
+    height: 10rem;
+    grid-column: span 2;
+}
+
+.problema{
+    padding: 0;
+    margin: 0.3rem;
+}
+
+li.radi {
+    display: flex;
+}
+
+#form3 > ul.problema{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    align-items: flex-start;
+    
+}
+
+.boto{
+    display: block;
+    background-color: #942C0B;
+    color: #FFFFFF;
+    border: solid;
+    height: 2.5rem;
+    width: 7rem;
+    text-transform: uppercase;
+    font-size: 0.87rem;
+    margin-top: 1rem;
 }
